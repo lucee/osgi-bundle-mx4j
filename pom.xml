@@ -121,8 +121,8 @@
             <Export-Package>*</Export-Package>
             <!-- <Require-Bundle></Require-Bundle> -->
             <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment> -->
-            <Import-Package>!org.apache.bcel.classfile,!org.apache.bcel.generic,!org.apache.commons.logging,!org.apache.log4j,*</Import-Package>
-            <DynamicImport-Package>org.apache.bcel.classfile,org.apache.bcel.generic,org.apache.commons.logging,org.apache.log4j</DynamicImport-Package>
+            <Import-Package>!org.apache.bcel.classfile,!org.apache.bcel.generic,!org.apache.commons.logging,!org.apache.log4j,!javax.management,!javax.management.loading,!javax.management.timer,!javax.xml.parsers,!mx4j,!mx4j.loading,!mx4j.log,!mx4j.monitor,!mx4j.persist,!mx4j.server,!mx4j.server.interceptor,!mx4j.timer,!mx4j.util,!org.w3c.dom,*</Import-Package>
+            <DynamicImport-Package>org.apache.bcel.classfile,org.apache.bcel.generic,org.apache.commons.logging,org.apache.log4j,javax.management,javax.management.loading,javax.management.timer,javax.xml.parsers,mx4j,mx4j.loading,mx4j.log,mx4j.monitor,mx4j.persist,mx4j.server,mx4j.server.interceptor,mx4j.timer,mx4j.util,org.w3c.dom</DynamicImport-Package>
             <!-- <Fragment-Host></Fragment-Host> -->
           </instructions>
         </configuration>
